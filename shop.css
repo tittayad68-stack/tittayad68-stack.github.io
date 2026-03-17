@@ -1,0 +1,99 @@
+/* พื้นหลังหลัก */
+body {
+    font-family: 'Mali', cursive;
+    background: linear-gradient(135deg, #FFF6E3, #FFCCEA, #BFECFF);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* SECTION */
+.shop {
+    text-align: center;
+    padding: 100px 20px 60px;
+}
+
+/* หัวข้อ */
+.shop h2 {
+    background: none;
+    padding: 80px 20px;
+    margin: 0; /* 👈 กันขาด */
+    display: block;
+    width: 80%;
+    margin: 0 auto 60px;
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+    background: white;
+    color: hotpink;
+
+    padding: 12px 30px;
+    border-radius: 50px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    margin-bottom: 60px;
+}
+
+/* PRODUCT CARD */
+.product-card {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(15px);
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    max-width: 350px;
+    margin: auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+
+/* รูป */
+.product-card img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+/* ชื่อสินค้า */
+.product-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* รายละเอียด */
+.desc {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* ราคา */
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ปุ่ม */
+.buy-btn {
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 40px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.buy-btn:hover {
+    background: #CDC1FF;
+    transform: scale(1.1);
+}
